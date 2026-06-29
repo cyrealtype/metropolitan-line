@@ -20,7 +20,8 @@ vwẃŵẅẁxyýŷÿỳzźžż/q.ss01
 /rightArrow.ss01/leftArrow.ss01 
 /leftArrow.ss01  /rightArrow.ss02/leftArrow.ss02/rightArrow.ss03/leftArrow.ss03/rightArrow.ss04/leftArrow.ss04",
 "β",
-"H/H.ss01"
+"H/H.ss01",
+"/a.ss01"
 );
 classes = (
 {
@@ -375,6 +376,8 @@ sub H by H.ss01;
 sub K by K.ss01;
 sub W by W.ss01;
 sub X by X.ss01;
+sub a by a.ss01;
+sub g by g.ss01;
 sub q by q.ss01;
 sub rightArrow by rightArrow.ss01;
 sub leftArrow by leftArrow.ss01;
@@ -382,7 +385,7 @@ sub leftArrow by leftArrow.ss01;
 labels = (
 {
 language = dflt;
-value = HGKWXq;
+value = "G,H,K,W,X,a,q,g alternates";
 }
 );
 tag = ss01;
@@ -396,7 +399,7 @@ sub leftArrow by leftArrow.ss02;
 labels = (
 {
 language = dflt;
-value = W;
+value = "W, arrows set 2";
 }
 );
 tag = ss02;
@@ -7079,7 +7082,7 @@ color = 4;
 glyphname = l;
 kernLeft = H;
 kernRight = l;
-lastChange = "2026-06-29 08:07:18 +0000";
+lastChange = "2026-06-29 20:07:12 +0000";
 layers = (
 {
 anchors = (
@@ -7100,31 +7103,37 @@ name = topright;
 pos = (252,700);
 }
 );
+backgroundImage = {
+imagePath = "Images/l-Regular.tif";
+locked = 1;
+pos = (8,-53);
+scale = (2.1,2.1);
+};
 layerId = m001;
 shapes = (
 {
 closed = 1;
 nodes = (
-(257,-10,o),
-(287,-1,o),
-(313,14,c),
-(313,112,l),
-(290,96,o),
-(261,86,o),
-(226,86,cs),
-(179,86,o),
-(151,123,o),
+(259,-10,o),
+(288,-2,o),
+(323,14,c),
+(323,111,l),
+(293,94,o),
+(264,86,o),
+(236,86,cs),
+(181,86,o),
+(151,119,o),
 (151,175,cs),
 (151,700,l),
 (51,700,l),
 (51,148,ls),
-(51,57,o),
+(51,56,o),
 (124,-10,o),
-(220,-10,cs)
+(224,-10,cs)
 );
 }
 );
-width = 330;
+width = 335;
 }
 );
 metricLeft = h;
@@ -7151,7 +7160,7 @@ pos = (34,225);
 ref = acutecomb;
 }
 );
-width = 330;
+width = 335;
 }
 );
 unicode = 314;
@@ -7199,7 +7208,7 @@ pos = (31,0);
 ref = commaaccentcomb;
 }
 );
-width = 330;
+width = 335;
 }
 );
 unicode = 316;
@@ -7222,7 +7231,7 @@ pos = (156,0);
 ref = periodcentered.loclCAT;
 }
 );
-width = 330;
+width = 335;
 }
 );
 unicode = 320;
@@ -9341,7 +9350,7 @@ color = 4;
 glyphname = y;
 kernLeft = y;
 kernRight = y;
-lastChange = "2026-06-29 08:08:53 +0000";
+lastChange = "2026-06-29 20:04:52 +0000";
 layers = (
 {
 anchors = (
@@ -9354,7 +9363,61 @@ name = top;
 pos = (281,475);
 }
 );
+backgroundImage = {
+imagePath = "Images/y-Regular.tif";
+locked = 1;
+pos = (-57,-288);
+scale = (2.5,2.5);
+};
 layerId = m001;
+shapes = (
+{
+closed = 1;
+nodes = (
+(145,-236,o),
+(219,-184,o),
+(280,-69,cs),
+(567,475,l),
+(448,475,l),
+(188,-29,ls),
+(154,-96,o),
+(117,-133,o),
+(73,-133,cs),
+(62,-133,o),
+(51,-131,o),
+(40,-128,c),
+(40,-231,l),
+(55,-234,o),
+(68,-236,o),
+(81,-236,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(318,115,l),
+(135,475,l),
+(12,475,l),
+(259,11,l)
+);
+}
+);
+width = 577;
+},
+{
+anchors = (
+{
+name = bottom;
+pos = (280,-225);
+},
+{
+name = top;
+pos = (281,475);
+}
+);
+associatedMasterId = m001;
+layerId = "AE55D6E1-22C8-4D07-96E4-CAFCC75DF8EC";
+name = "30 Jun 26 at 01:01";
 shapes = (
 {
 closed = 1;
@@ -9416,7 +9479,7 @@ pos = (214,0);
 ref = acutecomb;
 }
 );
-width = 562;
+width = 577;
 }
 );
 unicode = 253;
@@ -9439,7 +9502,7 @@ pos = (88,0);
 ref = circumflexcomb;
 }
 );
-width = 562;
+width = 577;
 }
 );
 unicode = 375;
@@ -9462,7 +9525,7 @@ pos = (93,0);
 ref = dieresiscomb;
 }
 );
-width = 562;
+width = 577;
 }
 );
 unicode = 255;
@@ -9485,7 +9548,7 @@ pos = (126,0);
 ref = gravecomb;
 }
 );
-width = 562;
+width = 577;
 }
 );
 unicode = 7923;
@@ -9604,6 +9667,221 @@ width = 478;
 }
 );
 unicode = 380;
+},
+{
+color = 5;
+glyphname = a.ss01;
+kernLeft = o;
+kernRight = u;
+lastChange = "2026-06-29 19:17:37 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (278,0);
+},
+{
+name = center;
+pos = (280,241);
+},
+{
+name = ogonek;
+pos = (504,0);
+},
+{
+name = top;
+pos = (278,475);
+},
+{
+name = topright;
+pos = (504,475);
+}
+);
+layerId = m001;
+shapes = (
+{
+closed = 1;
+nodes = (
+(322,-10,o),
+(366,3,o),
+(404,26,c),
+(404,0,l),
+(504,0,l),
+(504,475,l),
+(404,475,l),
+(404,449,l),
+(365,473,o),
+(323,485,o),
+(277,485,cs),
+(138,485,o),
+(31,376,o),
+(31,242,cs),
+(31,99,o),
+(138,-10,o),
+(276,-10,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(194,85,o),
+(131,152,o),
+(131,241,cs),
+(131,323,o),
+(194,390,o),
+(281,390,cs),
+(327,390,o),
+(374,372,o),
+(404,344,c),
+(404,137,l),
+(375,104,o),
+(326,85,o),
+(281,85,cs)
+);
+}
+);
+width = 555;
+}
+);
+metricLeft = o;
+metricRight = "=|h";
+userData = {
+KernOnName = d;
+};
+},
+{
+color = 5;
+glyphname = g.ss01;
+kernLeft = g;
+kernRight = g;
+lastChange = "2026-06-29 19:58:50 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (243,-225);
+},
+{
+name = top;
+pos = (243,475);
+}
+);
+backgroundImage = {
+imagePath = "Images/g.ss01-Regular.tif";
+locked = 1;
+pos = (-24,-276);
+scale = (1.95,1.95);
+};
+guides = (
+{
+angle = 180;
+pos = (243,308);
+},
+{
+angle = 90;
+pos = (243,308);
+},
+{
+angle = 166.251;
+pos = (297,64);
+},
+{
+angle = 166.2509;
+pos = (297,-21);
+},
+{
+angle = 180;
+pos = (478,-86);
+},
+{
+angle = 90;
+pos = (348,65);
+}
+);
+layerId = m001;
+shapes = (
+{
+closed = 1;
+nodes = (
+(360,-235,o),
+(443,-181,o),
+(443,-86,cs),
+(443,475,l),
+(437,475,l),
+(348,475,l),
+(283,475,l),
+(329,415,l),
+(348,415,l),
+(348,202,l),
+(279,178,l),
+(112,58,o),
+(36,-16,o),
+(36,-109,cs),
+(36,-191,o),
+(100,-235,o),
+(219,-235,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(133,-55,o),
+(191,28,o),
+(348,146,c),
+(348,-78,ls),
+(348,-134,o),
+(293,-150,o),
+(223,-150,cs),
+(173,-150,o),
+(133,-143,o),
+(133,-102,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(330,130,o),
+(431,206,o),
+(431,308,c),
+(399,464,l),
+(334,481,o),
+(285,485,o),
+(253,485,cs),
+(116,485,o),
+(55,388,o),
+(55,296,cs),
+(55,195,o),
+(116,130,o),
+(223,130,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(192,206,o),
+(150,234,o),
+(150,299,cs),
+(150,360,o),
+(189,400,o),
+(253,400,cs),
+(293,400,o),
+(320,395,o),
+(348,384,c),
+(348,230,l),
+(318,214,o),
+(295,206,o),
+(247,206,cs)
+);
+}
+);
+width = 488;
+}
+);
+userData = {
+KernOnName = g;
+};
 },
 {
 color = 4;
@@ -11666,7 +11944,7 @@ shapes = (
 ref = l;
 }
 );
-width = 330;
+width = 335;
 }
 );
 unicode = 8343;
