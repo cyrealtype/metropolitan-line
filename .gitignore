@@ -11,3 +11,4 @@ Thumbs.db
 Icon?
 # Affinity
 .af~lock~
+documentation/*.af~lock~
