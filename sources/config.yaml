@@ -1,5 +1,5 @@
 sources:
-  - Metropolitan Line.glyphs
+  - MetropolitanLine.glyphs
 buildOTF: true
 ttfaUseScript: true
 flattenComponents: true
