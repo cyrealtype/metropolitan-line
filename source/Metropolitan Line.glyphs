@@ -21,7 +21,8 @@ vwẃŵẅẁxyýŷÿỳzźžż/q.ss01
 /leftArrow.ss01  /rightArrow.ss02/leftArrow.ss02/rightArrow.ss03/leftArrow.ss03/rightArrow.ss04/leftArrow.ss04",
 "β",
 "H/H.ss01",
-"/a.ss01"
+"/a.ss01",
+"g/g.ss02 o"
 );
 classes = (
 {
@@ -37,7 +38,7 @@ value = (
 );
 }
 );
-date = "2026-06-30 06:09:11 +0000";
+date = "2026-06-30 07:59:12 +0000";
 familyName = "Metropolitan Line";
 featurePrefixes = (
 {
@@ -280,13 +281,14 @@ tag = ss01;
 {
 automatic = 1;
 code = "sub W by W.ss02;
+sub g by g.ss02;
 sub rightArrow by rightArrow.ss02;
 sub leftArrow by leftArrow.ss02;
 ";
 labels = (
 {
 language = dflt;
-value = "W, arrows set 2";
+value = "W, g, arrows set 2";
 }
 );
 tag = ss02;
@@ -9812,6 +9814,146 @@ ref = o;
 width = 550;
 }
 );
+},
+{
+color = 5;
+glyphname = g.ss02;
+kernLeft = g;
+kernRight = g;
+lastChange = "2026-06-30 08:10:19 +0000";
+layers = (
+{
+anchors = (
+{
+name = bottom;
+pos = (243,-225);
+},
+{
+name = top;
+pos = (243,475);
+}
+);
+backgroundImage = {
+imagePath = "Images/g.ss02-Regular.tif";
+locked = 1;
+pos = (-58,-281);
+scale = (1.6,1.6);
+};
+guides = (
+{
+angle = 180;
+pos = (243,308);
+},
+{
+angle = 90;
+pos = (243,308);
+},
+{
+angle = 166.251;
+pos = (297,64);
+},
+{
+angle = 166.2509;
+pos = (297,-21);
+},
+{
+angle = 180;
+pos = (478,-86);
+},
+{
+angle = 90;
+pos = (348,65);
+}
+);
+layerId = m001;
+shapes = (
+{
+closed = 1;
+nodes = (
+(413,-235,o),
+(511,-172,o),
+(511,-104,cs),
+(511,-49,o),
+(487,-11,o),
+(384,52,c),
+(384,154,l),
+(280,145,l),
+(280,72,l),
+(91,33,o),
+(5,-31,o),
+(5,-101,cs),
+(5,-183,o),
+(138,-235,o),
+(257,-235,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(361,93,o),
+(450,177,o),
+(450,290,cs),
+(450,401,o),
+(361,485,o),
+(243,485,cs),
+(125,485,o),
+(36,401,o),
+(36,290,cs),
+(36,177,o),
+(125,93,o),
+(243,93,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(185,190,o),
+(140,233,o),
+(140,290,cs),
+(140,346,o),
+(185,388,o),
+(243,388,cs),
+(301,388,o),
+(346,346,o),
+(346,290,cs),
+(346,233,o),
+(301,190,o),
+(243,190,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(144,-145,o),
+(105,-119,o),
+(105,-98,cs),
+(105,-69,o),
+(169,-38,o),
+(311,-4,c),
+(371,-32,o),
+(410,-60,o),
+(410,-87,cs),
+(410,-119,o),
+(364,-145,o),
+(260,-145,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(472,395,l),
+(472,475,l),
+(283,475,l),
+(329,395,l)
+);
+}
+);
+width = 488;
+}
+);
+userData = {
+KernOnName = g;
+};
 },
 {
 color = 8;
@@ -19467,15 +19609,6 @@ key = manufacturerURL;
 value = "https://cyreal.org";
 },
 {
-key = trademarks;
-values = (
-{
-language = dflt;
-value = "";
-}
-);
-},
-{
 key = vendorID;
 value = CYRE;
 }
@@ -19498,6 +19631,6 @@ tH = "90";
 KernOnVersion = "1.37";
 UFOFormat = 3;
 };
-versionMajor = 2;
-versionMinor = 0;
+versionMajor = 0;
+versionMinor = 900;
 }

@@ -6,9 +6,15 @@
 ._*
 .Spotlight-V100
 .Trashes
+Icon?
 ehthumbs.db
 Thumbs.db
-Icon?
-# Affinity
-.af~lock~
-documentation/*.af~lock~
+
+# Lock files (includes .af~lock~ and all variants)
+*.~lock~
+*.lock
+*.tmp
+*.temp
+
+# Virtual environment
+venv/
