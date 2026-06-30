@@ -1,14 +1,13 @@
 Metropolitan Line
 ============
 
-An open source version of Edward Johnston's Timeless Typeface for London Underground of 1916
-
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./documentation/cover_dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./documentation/cover.svg">
     <img alt="open source version of Edward Johnston's Typeface for London Underground" src="./documentation/cover.svg">
   </picture>
+An open source version of Edward Johnston's Timeless Typeface for London Underground of 1916
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./documentation/image1_dark.svg">
     <source media="(prefers-color-scheme: light)" srcset="./documentation/image1.svg">
