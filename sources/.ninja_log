@@ -1,0 +1,14 @@
+# ninja log v5
+1	1881	1782810368158623547	instance_ufos/MetropolitanLine-Regular.ufo.json	db66033d9e091dad
+1881	4023	1782810370316504275	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp03ldxfpp	6176fd5276b997eb
+1881	4736	1782810371005009568	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpxjtknx2x	51d41590c5d56b1
+4024	6647	1782810372816462885	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpijlr63ls	46ab380545b08729
+4736	6846	1782810373100685622	../fonts/otf/MetropolitanLine-Regular.otf	9386bb76ec13756f
+6647	8614	1782810374890746326	../fonts/ttf/MetropolitanLine-Regular.ttf	3567b779cea530c1
+8614	9982	1782810376307404062	../fonts/webfonts/MetropolitanLine-Regular.woff2	7a592bc364a56a08
+0	2080	1782810448811249277	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpjvxnmobv	843466fa9ef0871d
+1	2743	1782810449443461422	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpq3xc_7k3	aa2b1779c4fee786
+2080	4560	1782810451205777014	/var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr4_in9bc	1c589efad5a3825
+2743	4786	1782810451488209713	../fonts/otf/MetropolitanLine-Regular.otf	10dc31c794479d14
+4560	6530	1782810453259624386	../fonts/ttf/MetropolitanLine-Regular.ttf	685c0d0ede80650f
+6530	7895	1782810454667087862	../fonts/webfonts/MetropolitanLine-Regular.woff2	7a592bc364a56a08
