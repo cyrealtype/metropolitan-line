@@ -4,3 +4,7 @@ buildOTF: true
 ttfaUseScript: true
 flattenComponents: true
 decomposeTransformedComponents: true
+outputs:
+  - otf
+  - ttf
+  - woff2
