@@ -1,0 +1,6 @@
+sources:
+  - Metropolitan Line.glyphs
+buildOTF: true
+ttfaUseScript: true
+flattenComponents: true
+decomposeTransformedComponents: true
