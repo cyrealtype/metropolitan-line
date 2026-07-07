@@ -5,8 +5,10 @@ on:
   pull_request:
   push:
     branches:
-      #- main
-      - v2
+      - main
+    paths:
+      - 'sources/**'
+	  - 'Makefile'
     tags:
       - "*"
 
