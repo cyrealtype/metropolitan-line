@@ -23,7 +23,7 @@ name = "EditView Line Height";
 value = 1120;
 }
 );
-date = "2026-07-07 13:05:40 +0000";
+date = "2026-07-07 13:15:20 +0000";
 familyName = "Metropolitan Line";
 featurePrefixes = (
 {
@@ -4950,9 +4950,31 @@ color = 4;
 glyphname = Q_U;
 kernLeft = O;
 kernRight = U;
-lastChange = "2026-07-01 11:38:21 +0000";
+lastChange = "2026-07-07 13:13:29 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom_1;
+pos = (395,0);
+},
+{
+name = bottom_2;
+pos = (1138,0);
+},
+{
+name = caret_1;
+pos = (748,0);
+},
+{
+name = top_1;
+pos = (391,700);
+},
+{
+name = top_2;
+pos = (1143,700);
+}
+);
 layerId = m001;
 shapes = (
 {
@@ -8584,7 +8606,7 @@ color = 4;
 glyphname = t;
 kernLeft = t;
 kernRight = t;
-lastChange = "2026-07-01 11:37:32 +0000";
+lastChange = "2026-07-07 13:14:31 +0000";
 layers = (
 {
 anchors = (
@@ -8602,7 +8624,7 @@ pos = (170,570);
 },
 {
 name = topright;
-pos = (430,630);
+pos = (430,700);
 }
 );
 guides = (
@@ -8656,9 +8678,63 @@ color = 4;
 glyphname = tcaron;
 kernLeft = t;
 kernRight = t;
-lastChange = "2026-07-01 11:37:32 +0000";
+lastChange = "2026-07-07 13:14:59 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (258,0);
+}
+);
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(327,-10,o),
+(369,3,o),
+(399,24,c),
+(399,120,l),
+(368,97,o),
+(327,84,o),
+(294,84,cs),
+(241,84,o),
+(220,121,o),
+(220,173,cs),
+(220,385,l),
+(349,385,l),
+(349,475,l),
+(220,475,l),
+(220,570,l),
+(120,570,l),
+(120,475,l),
+(21,475,l),
+(21,385,l),
+(120,385,l),
+(120,148,ls),
+(120,47,o),
+(184,-10,o),
+(287,-10,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(449,465,o),
+(520,522,o),
+(520,600,cs),
+(520,700,l),
+(420,700,l),
+(420,600,ls),
+(420,539,o),
+(411,498,o),
+(383,476,c),
+(383,465,l)
+);
+}
+);
+};
 layerId = m001;
 shapes = (
 {
@@ -8706,7 +8782,7 @@ nodes = (
 );
 }
 );
-width = 520;
+width = 430;
 }
 );
 metricLeft = t;
@@ -10065,9 +10141,15 @@ color = 4;
 glyphname = fi;
 kernLeft = f;
 kernRight = idotless;
-lastChange = "2026-07-02 07:21:26 +0000";
+lastChange = "2026-07-07 13:13:04 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (253.005,0);
+}
+);
 layerId = m001;
 shapes = (
 {
@@ -10092,9 +10174,15 @@ color = 4;
 glyphname = fl;
 kernLeft = f;
 kernRight = l;
-lastChange = "2026-07-02 07:21:26 +0000";
+lastChange = "2026-07-07 13:12:57 +0000";
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (315,0);
+}
+);
 layerId = m001;
 shapes = (
 {
@@ -12207,9 +12295,7 @@ unicode = 8313;
 {
 color = 4;
 glyphname = space;
-kernLeft = space;
-kernRight = space;
-lastChange = "2026-07-07 12:59:43 +0000";
+lastChange = "2026-07-07 13:09:43 +0000";
 layers = (
 {
 layerId = m001;
@@ -12227,9 +12313,7 @@ R = NoKerning;
 {
 color = 4;
 glyphname = nbspace;
-kernLeft = space;
-kernRight = space;
-lastChange = "2026-07-01 11:37:32 +0000";
+lastChange = "2026-07-07 13:09:45 +0000";
 layers = (
 {
 layerId = m001;
@@ -12277,6 +12361,32 @@ width = 521;
 }
 );
 metricRight = "=|";
+},
+{
+color = 4;
+glyphname = lineseparator;
+lastChange = "2026-07-07 13:09:31 +0000";
+layers = (
+{
+layerId = m001;
+width = 250;
+}
+);
+metricWidth = space;
+unicode = 8232;
+},
+{
+color = 4;
+glyphname = paragraphseparator;
+lastChange = "2026-07-07 13:09:31 +0000";
+layers = (
+{
+layerId = m001;
+width = 250;
+}
+);
+metricWidth = space;
+unicode = 8233;
 },
 {
 color = 4;
@@ -19363,30 +19473,6 @@ instanceInterpolations = {
 m001 = 1;
 };
 name = Regular;
-properties = (
-{
-key = postscriptFontName;
-value = Railway;
-},
-{
-key = postscriptFullNames;
-values = (
-{
-language = dflt;
-value = "Railway C1";
-}
-);
-},
-{
-key = styleMapFamilyNames;
-values = (
-{
-language = dflt;
-value = "Railway C1 Regular";
-}
-);
-}
-);
 }
 );
 kerningLTR = {
@@ -20168,6 +20254,19 @@ value = "Copyright 2026 The Metropolitan Line authors (https://github.com/cyreal
 );
 },
 {
+key = designers;
+values = (
+{
+language = dflt;
+value = "Cyreal, Alexei Vanyashin, Michael Voronin";
+}
+);
+},
+{
+key = designerURL;
+value = "https://cyreal.org";
+},
+{
 key = licenses;
 values = (
 {
@@ -20217,5 +20316,5 @@ KernOnVersion = "1.37";
 UFOFormat = 3;
 };
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
