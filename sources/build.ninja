@@ -56,35 +56,35 @@ build instance_ufos/MetropolitanLine-Regular.ufo.json: instantiateUfo $
 build ../fonts/webfonts/MetropolitanLine-Regular.woff2: compress $
     ../fonts/ttf/MetropolitanLine-Regular.ttf
   operation = compress
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpjvxnmobv
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpjvxnmobv: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1xtf2i7l
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1xtf2i7l: $
     buildTTF instance_ufos/MetropolitanLine-Regular.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpq3xc_7k3
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpq3xc_7k3: $
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpn7rpob7f
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpn7rpob7f: $
     buildOTF instance_ufos/MetropolitanLine-Regular.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr4_in9bc
-build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr4_in9bc: $
-    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpjvxnmobv
+# Generating /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1beqpss5
+build /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1beqpss5: $
+    autohint /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1xtf2i7l
   operation = autohint
   args = --fail-ok  --auto-script
 # Generating ../fonts/ttf/MetropolitanLine-Regular.ttf
 build ../fonts/ttf/MetropolitanLine-Regular.ttf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpr4_in9bc
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmp1beqpss5
   operation = fix
   args = 
 # Generating ../fonts/otf/MetropolitanLine-Regular.otf
 build ../fonts/otf/MetropolitanLine-Regular.otf: fix $
-    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpq3xc_7k3
+    /var/folders/xm/8_gkzvmn2f30h2nxxfdh_n380000gp/T/tmpn7rpob7f
   operation = fix
   args = 
 default ../fonts/webfonts/MetropolitanLine-Regular.woff2 $
