@@ -332,19 +332,19 @@ value = 250;
 },
 {
 name = typoAscender;
-value = 910;
+value = 950;
 },
 {
 name = hheaAscender;
-value = 910;
+value = 950;
 },
 {
 name = typoDescender;
-value = -210;
+value = -250;
 },
 {
 name = hheaDescender;
-value = -210;
+value = -250;
 },
 {
 name = hheaLineGap;
@@ -20249,7 +20249,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2026 The Metropolitan Line authors (https://github.com/cyrealtype/metropolitan-line)";
+value = "Copyright 2026 The Metropolitan Line Project authors (https://github.com/cyrealtype/metropolitan-line)";
 }
 );
 },
