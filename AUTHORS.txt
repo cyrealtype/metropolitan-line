@@ -8,4 +8,5 @@
 
 Justin Howes,
 Greg Fleming,
-Alexei Vanyashin (a@cyreal.org)
+Alexei Vanyashin (a@cyreal.org),
+Michael Voronin (aencaster@gmail.com)
