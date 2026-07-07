@@ -23,7 +23,7 @@ name = "EditView Line Height";
 value = 1120;
 }
 );
-date = "2026-07-07 13:15:20 +0000";
+date = "2026-07-07 20:24:30 +0000";
 familyName = "Metropolitan Line";
 featurePrefixes = (
 {
@@ -20316,5 +20316,5 @@ KernOnVersion = "1.37";
 UFOFormat = 3;
 };
 versionMajor = 1;
-versionMinor = 1;
+versionMinor = 2;
 }
