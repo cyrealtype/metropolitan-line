@@ -23,7 +23,7 @@ name = "EditView Line Height";
 value = 1120;
 }
 );
-date = "2026-07-02 07:36:52 +0000";
+date = "2026-07-07 13:05:40 +0000";
 familyName = "Metropolitan Line";
 featurePrefixes = (
 {
@@ -20163,9 +20163,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright (c) 1994, Justin Howes. An Unpublished work from Justin Howes.
-Copyright (c) 2012, Greg Fleming, with Reserved Font Name \"Railway\".
-Copyright (c) 2026, The Metropolitan Line Authors (https://github.com/cyrealtype/metropolitan-line).";
+value = "Copyright 2026 The Metropolitan Line authors (https://github.com/cyrealtype/metropolitan-line)";
 }
 );
 },
