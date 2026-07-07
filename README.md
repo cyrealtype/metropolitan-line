@@ -45,9 +45,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Copyright
 
 ```
-Copyright (c) 1994, Justin Howes. An Unpublished work from Justin Howes.
-Copyright (c) 2012, Greg Fleming, with Reserved Font Name "Railway".
-Copyright (c) 2026, The Metropolitan Line Authors (https://github.com/cyrealtype/metropolitan-line).
+Copyright 1994 Justin Howes. An Unpublished work from Justin Howes.
+Copyright 2012 Greg Fleming, with Reserved Font Name "Railway".
+Copyright 2026 The Metropolitan Line Authors (https://github.com/cyrealtype/metropolitan-line).
 ```
 
 ## License
