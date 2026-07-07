@@ -8,7 +8,7 @@ on:
       - main
     paths:
       - 'sources/**'
-	  - 'Makefile'
+      - 'Makefile'
     tags:
       - "*"
 
