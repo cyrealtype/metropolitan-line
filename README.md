@@ -22,7 +22,7 @@ An open source version of Edward Johnston's Timeless Typeface for London Undergr
 
 ## About
 
-Metropolitan Line is a derivative of Railway Sans by Justin Howes, and Greg Fleming.
+Metropolitan Line is an open-source revival of Edward Johnston’s timeless typeface for the London Underground of 1916. Designed by Alexei Vanyashin and Michael Voronin in 2026, it is based on Railway Sans, digitized by Justin Howes in 1994 and published by Greg Fleming in 2012. The typeface has been thoroughly revised, with refined contours, improved spacing, rhythm, and kerning, resulting in a cleaner, more consistent interpretation of the original design.
 
 Railway Sans is a previously unpublished work, originally digitised by my late friend and partner, the typographer Justin Howes, in 1994, some seventy-eight years after the first appearance of Johnston's Railway type in 1916. Using an old SPARC station, some bitmap-to-vector software which I'd written which output in ASCII Type 3 font format and a Crosfield drum scanner to initially capture the outlines, these were then converted from bitmaps into vector font data. Justin had wanted to capture and make an experimental font of this version, drawn directly from Johnston's original artwork of 1913-1915 as part of the book he was writing on Edward Johnston and other Johnston-related research, and later revisions and variations which were originally the only characters in the typeface in various samples and working proofs kindly lent by Andrew Johnston.
 
