@@ -1,4 +1,4 @@
-Copyright 2026 The Metropolitan-Line.Git Project Authors (https://github.com/cyrealtype/metropolitan-line.git)
+Copyright 2026 The Metropolitan Line Project Authors (https://github.com/cyrealtype/metropolitan-line.git)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is copied below, and is also available with a FAQ at:
