@@ -20347,5 +20347,5 @@ KernOnVersion = "1.37";
 UFOFormat = 3;
 };
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 4;
 }
