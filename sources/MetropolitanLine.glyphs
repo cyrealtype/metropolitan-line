@@ -1,5 +1,5 @@
 {
-.appVersion = "3436";
+.appVersion = "4202";
 .formatVersion = 3;
 classes = (
 {
@@ -699,7 +699,7 @@ color = 5;
 glyphname = AE;
 kernLeft = A;
 kernRight = E;
-lastChange = "2026-07-02 06:43:55 +0000";
+lastChange = "2026-11-15 11:40:26 +0000";
 layers = (
 {
 anchors = (
@@ -721,6 +721,10 @@ shapes = (
 {
 closed = 1;
 nodes = (
+(132,0,l),
+(226,175,l),
+(461,175,l),
+(461,0,l),
 (881,0,l),
 (881,100,l),
 (571,100,l),
@@ -731,35 +735,17 @@ nodes = (
 (571,600,l),
 (861,600,l),
 (861,700,l),
-(461,700,l),
-(461,0,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(488,175,l),
-(488,270,l),
-(203,270,l),
-(159,175,l)
-);
-},
-{
-closed = 1;
-nodes = (
 (389,700,l),
-(12,0,l),
-(132,0,l),
-(507,700,l)
+(12,0,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(425,600,l),
-(571,600,l),
-(571,700,l),
-(425,700,l)
+(453,600,l),
+(461,600,l),
+(461,270,l),
+(277,270,l)
 );
 }
 );
@@ -2306,9 +2292,22 @@ color = 4;
 glyphname = Lslash;
 kernLeft = L;
 kernRight = L;
-lastChange = "2026-07-01 11:38:21 +0000";
+lastChange = "2026-11-15 11:52:11 +0000";
 layers = (
 {
+background = {
+shapes = (
+{
+closed = 1;
+nodes = (
+(325,401,l),
+(325,516,l),
+(50,325,l),
+(50,210,l)
+);
+}
+);
+};
 layerId = m001;
 shapes = (
 {
@@ -2318,12 +2317,12 @@ ref = L;
 {
 closed = 1;
 nodes = (
-(109,232,l),
-(175,282,l),
-(348,440,l),
-(348,555,l),
-(172,395,l),
-(112,350,l),
+(125,229,l),
+(182,254,l),
+(348,374,l),
+(348,489,l),
+(181,368,l),
+(120,340,l),
 (30,275,l),
 (30,160,l)
 );
@@ -6220,7 +6219,7 @@ color = 4;
 glyphname = f;
 kernLeft = f;
 kernRight = f;
-lastChange = "2026-07-01 11:37:32 +0000";
+lastChange = "2026-11-15 11:41:06 +0000";
 layers = (
 {
 guides = (
@@ -6253,10 +6252,10 @@ nodes = (
 (149,710,o),
 (88,642,o),
 (88,540,cs),
-(88,474,l),
-(8,474,l),
-(8,386,l),
-(88,386,l),
+(88,475,l),
+(8,475,l),
+(8,385,l),
+(88,385,l),
 (88,0,l)
 );
 }
@@ -7255,7 +7254,7 @@ color = 4;
 glyphname = lslash;
 kernLeft = hbar;
 kernRight = l;
-lastChange = "2026-07-01 11:37:32 +0000";
+lastChange = "2026-11-15 11:52:31 +0000";
 layers = (
 {
 layerId = m001;
@@ -7263,26 +7262,39 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(250.667,-11,o),
-(294.333,2.667,o),
-(325,24,c),
-(325,125,l),
-(294.333,102.333,o),
-(250.667,89,o),
-(216,89,cs),
-(176,89,o),
-(146,126,o),
-(146,178,cs),
-(146,698,l),
-(46,698,l),
-(46,148,ls),
-(46,57.229,o),
-(120.441,-11,o),
-(216,-11,cs)
+(281,-11,o),
+(324,3,o),
+(355,24,c),
+(355,125,l),
+(324,102,o),
+(281,89,o),
+(246,89,cs),
+(206,89,o),
+(176,126,o),
+(176,178,cs),
+(176,698,l),
+(76,698,l),
+(76,148,ls),
+(76,57,o),
+(150,-11,o),
+(246,-11,cs)
+);
+},
+{
+closed = 1;
+nodes = (
+(101,262,l),
+(160,278,l),
+(285,347,l),
+(285,460,l),
+(153,388,l),
+(95,372,l),
+(10,325,l),
+(10,212,l)
 );
 }
 );
-width = 325;
+width = 355;
 }
 );
 unicode = 322;
@@ -15956,7 +15968,7 @@ color = 4;
 glyphname = dollar;
 kernLeft = S;
 kernRight = S;
-lastChange = "2026-07-08 11:05:32 +0000";
+lastChange = "2026-11-15 11:39:55 +0000";
 layers = (
 {
 layerId = m001;
@@ -20231,7 +20243,7 @@ key = copyrights;
 values = (
 {
 language = dflt;
-value = "Copyright 2026 The Metropolitan Line Project authors (https://github.com/cyrealtype/metropolitan-line)";
+value = "Copyright 2026 The Metropolitan Line Project Authors (https://github.com/googlefonts/metropolitan-line)";
 }
 );
 },
