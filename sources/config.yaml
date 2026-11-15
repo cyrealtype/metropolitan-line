@@ -4,3 +4,4 @@ buildOTF: true
 ttfaUseScript: true
 flattenComponents: true
 decomposeTransformedComponents: true
+cleanUp: true
